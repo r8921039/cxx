@@ -1,16 +1,16 @@
 # build with autotools on osx 
-- i.e. use (utoscan, autoreconf, autoconf, automake, libtool) to build and install to 
+### to use (utoscan, autoreconf, autoconf, automake, libtool) to build and install to 
 - /usr/local/bin/hello 
-- /usr/local/lib/libhi.dylib, libhi.la, etc
+- /usr/local/lib/libhi.dylib, libhi.la, libhi.a
 - /usr/local/include/hi.h  
 
-- editted
+### to use autotools needs to manually craft the following
 - conigure.ac
 - Makefile.am
 - lib/Makefile.am (hi.cpp, hi.h)
 - src/Makefile.am (main.cpp, config.h)
 
-- to build
+### use build hello (executable) and libhi.dylib (osx shared lib)
 ```
 ./autogen.sh
 ./configure
