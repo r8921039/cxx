@@ -4,7 +4,11 @@
 - /usr/local/lib/libhi.dylib, libhi.la, etc
 - /usr/local/include/hi.h  
 
-- editted conigure.ac, Makefile.am, lib/Makefile.am, src/Makefile.am.
+- editted
+- conigure.ac
+- Makefile.am
+- lib/Makefile.am (hi.cpp, hi.h)
+- src/Makefile.am (main.cpp, config.h)
 
 - to build
 ```
