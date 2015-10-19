@@ -1,10 +1,11 @@
-# for osx
+# build with autotools on osx 
+i.e. use (utoscan, autoreconf, autoconf, automake, libtool) to build and install to 
+/usr/local/bin/hello 
+/usr/local/lib/libhi.dylib, libhi.la, etc
+/usr/local/include/hi.h  
 
-# use autotools (autoscan, autoreconf, autoconf, automake, libtool) build/install to 
-# /usr/local/binhello 
-# /usr/local/lib/libhi.dylib, libhi.la, etc
-# /usr/local/include/hi.h  
-added conigure.ac, Makefile.am, lib/Makefile.am, src/Makefile.am.
+editted conigure.ac, Makefile.am, lib/Makefile.am, src/Makefile.am.
+
 to build
 ./autogen.sh
 ./configure
