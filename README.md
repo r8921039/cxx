@@ -10,7 +10,7 @@
 - lib/Makefile.am (hi.cpp, hi.h)
 - src/Makefile.am (main.cpp, config.h)
 
-### use build hello (executable) and libhi.dylib (osx shared lib)
+### to build hello (executable) and libhi.dylib (osx shared lib)
 ```
 ./autogen.sh
 ./configure
