@@ -1,5 +1,5 @@
 # build with autotools on osx 
-### to use (utoscan, autoreconf, autoconf, automake, libtool) to build and install to 
+### to use (autoscan, autoreconf, autoconf, automake, libtool) to build and install to 
 - /usr/local/bin/hello 
 - /usr/local/lib/libhi.dylib, libhi.la, libhi.a
 - /usr/local/include/hi.h  
